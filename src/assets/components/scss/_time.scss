@@ -1,0 +1,39 @@
+
+
+.time {
+    background-color: $rose50;
+    margin-top: 1.5rem;
+    padding: 1.2rem;
+    border: 1px solid $white;
+    border-radius: 10px;
+}
+
+.time-list {
+    padding-left: 1.2rem;
+    margin-top: 0.8rem;
+    list-style-type: square;
+}
+
+.time-heading {
+    color: $rose800;
+    font-family: Outfit;
+}
+
+.time-list li {
+    padding-left: 1.3rem;
+    font-family: Outfit;
+    font-size: $font-sm;
+    color: $stone600;
+    line-height: 2rem;
+}
+
+
+.time-list > li::marker {
+    color: $rose800;
+}
+
+.time-title {
+    font-family: Outfit;
+    font-weight: bold;
+    color: $stone600;
+}

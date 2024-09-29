@@ -1,0 +1,29 @@
+h3 {
+    color: $brown;
+    font-size: 1.7rem;
+    margin-top: $font-lg;
+    letter-spacing: 0.05rem;
+    font-weight: 500;
+}
+
+.ingredient-list {
+    padding-left: 1.2rem;
+    font-family: Outfit;
+    margin-top: 0.8rem;
+    list-style-type: square;
+    border-bottom: 1px solid $stone150;
+    padding-bottom: 1.7rem;
+}
+
+.ingredient-list li {
+    padding-left: 1.3rem;
+    font-family: Outfit;
+    font-size: $font-sm;
+    color: $stone600;
+    line-height: 2rem;
+}
+
+.ingredient-list > li::marker {
+    color: $brown;
+    font-size: 0.85rem;
+}

@@ -1,0 +1,26 @@
+
+ol {
+    padding-left: 1.4rem;
+    border-bottom:  1px solid $stone150;
+    padding-bottom: 1.7rem;
+}
+
+ol li {
+    padding-left: 1.3rem;
+    font-family: Outfit;
+    font-size: $font-sm;
+    color: $stone600;
+    line-height: 2rem;
+}
+
+ol li span {
+    font-family: Outfit;
+    font-weight: bold;
+    color: $stone600;
+}
+
+ol > li::marker {
+    color: $brown;
+    font-size: 1rem;
+    font-weight: 600;
+}
